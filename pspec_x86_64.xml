@@ -1,0 +1,59 @@
+<PISI>
+    <Source>
+        <Name>ruby-multi_json</Name>
+        <Packager>
+            <Name>Peter O&apos;Connor</Name>
+            <Email>peter@solus-project.com</Email>
+        </Packager>
+        <License>MIT</License>
+        <PartOf>programming.ruby</PartOf>
+        <Summary xml:lang="en">RubyGem - multi_json</Summary>
+        <Description xml:lang="en">A common interface to multiple JSON libraries, including Oj, Yajl, the JSON gem (with C-extensions), the pure-Ruby JSON gem, NSJSONSerialization, gson.rb, JrJackson, and OkJson.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>ruby-multi_json</Name>
+        <Summary xml:lang="en">RubyGem - multi_json</Summary>
+        <Description xml:lang="en">A common interface to multiple JSON libraries, including Oj, Yajl, the JSON gem (with C-extensions), the pure-Ruby JSON gem, NSJSONSerialization, gson.rb, JrJackson, and OkJson.
+</Description>
+        <PartOf>programming.ruby</PartOf>
+        <Files>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/build_info</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/extensions</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/multi_json-1.13.1/CHANGELOG.md</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/multi_json-1.13.1/CONTRIBUTING.md</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/multi_json-1.13.1/LICENSE.md</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/multi_json-1.13.1/README.md</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/multi_json-1.13.1/lib/multi_json.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/multi_json-1.13.1/lib/multi_json/adapter.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/multi_json-1.13.1/lib/multi_json/adapter_error.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/multi_json-1.13.1/lib/multi_json/adapters/gson.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/multi_json-1.13.1/lib/multi_json/adapters/jr_jackson.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/multi_json-1.13.1/lib/multi_json/adapters/json_common.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/multi_json-1.13.1/lib/multi_json/adapters/json_gem.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/multi_json-1.13.1/lib/multi_json/adapters/json_pure.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/multi_json-1.13.1/lib/multi_json/adapters/nsjsonserialization.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/multi_json-1.13.1/lib/multi_json/adapters/oj.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/multi_json-1.13.1/lib/multi_json/adapters/ok_json.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/multi_json-1.13.1/lib/multi_json/adapters/yajl.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/multi_json-1.13.1/lib/multi_json/convertible_hash_keys.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/multi_json-1.13.1/lib/multi_json/options.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/multi_json-1.13.1/lib/multi_json/options_cache.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/multi_json-1.13.1/lib/multi_json/parse_error.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/multi_json-1.13.1/lib/multi_json/vendor/okjson.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/multi_json-1.13.1/lib/multi_json/version.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/specifications/multi_json-1.13.1.gemspec</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2018-03-23</Date>
+            <Version>1.13.1</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Peter O&apos;Connor</Name>
+            <Email>peter@solus-project.com</Email>
+        </Update>
+    </History>
+</PISI>
