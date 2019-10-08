@@ -10,7 +10,7 @@
         <Summary xml:lang="en">RubyGem - multi_json</Summary>
         <Description xml:lang="en">A common interface to multiple JSON libraries, including Oj, Yajl, the JSON gem (with C-extensions), the pure-Ruby JSON gem, NSJSONSerialization, gson.rb, JrJackson, and OkJson.
 </Description>
-        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
     </Source>
     <Package>
         <Name>ruby-multi_json</Name>
@@ -48,8 +48,8 @@
         </Files>
     </Package>
     <History>
-        <Update release="2">
-            <Date>2018-12-26</Date>
+        <Update release="3">
+            <Date>2019-10-07</Date>
             <Version>1.13.1</Version>
             <Comment>Packaging update</Comment>
             <Name>F. von Gellhorn</Name>

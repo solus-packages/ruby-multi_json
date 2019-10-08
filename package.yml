@@ -1,6 +1,6 @@
 name       : ruby-multi_json
 version    : 1.13.1
-release    : 2
+release    : 3
 source     :
     - https://rubygems.org/downloads/multi_json-1.13.1.gem : db8613c039b9501e6b2fb85efe4feabb02f55c3365bae52bba35381b89c780e6
 license    : MIT
