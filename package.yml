@@ -1,16 +1,17 @@
 name       : ruby-multi_json
-version    : 1.13.1
-release    : 3
+version    : 1.14.1
+release    : 4
 source     :
-    - https://rubygems.org/downloads/multi_json-1.13.1.gem : db8613c039b9501e6b2fb85efe4feabb02f55c3365bae52bba35381b89c780e6
+    - https://rubygems.org/downloads/multi_json-1.14.1.gem : d971296c0eacea289d31e4a7ab7ac5eda97262c62bbc8c110de4f5e36425c577
 license    : MIT
 component  : programming.ruby
 summary    : RubyGem - multi_json
 description: |
     A common interface to multiple JSON libraries, including Oj, Yajl, the JSON gem (with C-extensions), the pure-Ruby JSON gem, NSJSONSerialization, gson.rb, JrJackson, and OkJson.
 builddeps  :
-    - pkgconfig(ruby-2.6)
+    - pkgconfig(ruby-2.7)
 rundeps    :
     - ruby
 install    : |
     %gem_install
+    rm -rf $installdir/$geminstalldir/{build_info,doc,extensions}

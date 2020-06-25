@@ -2,8 +2,8 @@
     <Source>
         <Name>ruby-multi_json</Name>
         <Packager>
-            <Name>F. von Gellhorn</Name>
-            <Email>flinux@vongellhorn.ch</Email>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@streambits.io</Email>
         </Packager>
         <License>MIT</License>
         <PartOf>programming.ruby</PartOf>
@@ -19,41 +19,38 @@
 </Description>
         <PartOf>programming.ruby</PartOf>
         <Files>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/build_info</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/doc</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/extensions</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/multi_json-1.13.1/CHANGELOG.md</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/multi_json-1.13.1/CONTRIBUTING.md</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/multi_json-1.13.1/LICENSE.md</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/multi_json-1.13.1/README.md</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/multi_json-1.13.1/lib/multi_json.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/multi_json-1.13.1/lib/multi_json/adapter.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/multi_json-1.13.1/lib/multi_json/adapter_error.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/multi_json-1.13.1/lib/multi_json/adapters/gson.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/multi_json-1.13.1/lib/multi_json/adapters/jr_jackson.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/multi_json-1.13.1/lib/multi_json/adapters/json_common.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/multi_json-1.13.1/lib/multi_json/adapters/json_gem.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/multi_json-1.13.1/lib/multi_json/adapters/json_pure.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/multi_json-1.13.1/lib/multi_json/adapters/nsjsonserialization.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/multi_json-1.13.1/lib/multi_json/adapters/oj.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/multi_json-1.13.1/lib/multi_json/adapters/ok_json.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/multi_json-1.13.1/lib/multi_json/adapters/yajl.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/multi_json-1.13.1/lib/multi_json/convertible_hash_keys.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/multi_json-1.13.1/lib/multi_json/options.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/multi_json-1.13.1/lib/multi_json/options_cache.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/multi_json-1.13.1/lib/multi_json/parse_error.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/multi_json-1.13.1/lib/multi_json/vendor/okjson.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/multi_json-1.13.1/lib/multi_json/version.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/specifications/multi_json-1.13.1.gemspec</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/multi_json-1.14.1/CHANGELOG.md</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/multi_json-1.14.1/CONTRIBUTING.md</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/multi_json-1.14.1/LICENSE.md</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/multi_json-1.14.1/README.md</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/multi_json-1.14.1/lib/multi_json.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/multi_json-1.14.1/lib/multi_json/adapter.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/multi_json-1.14.1/lib/multi_json/adapter_error.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/multi_json-1.14.1/lib/multi_json/adapters/gson.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/multi_json-1.14.1/lib/multi_json/adapters/jr_jackson.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/multi_json-1.14.1/lib/multi_json/adapters/json_common.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/multi_json-1.14.1/lib/multi_json/adapters/json_gem.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/multi_json-1.14.1/lib/multi_json/adapters/json_pure.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/multi_json-1.14.1/lib/multi_json/adapters/nsjsonserialization.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/multi_json-1.14.1/lib/multi_json/adapters/oj.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/multi_json-1.14.1/lib/multi_json/adapters/ok_json.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/multi_json-1.14.1/lib/multi_json/adapters/yajl.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/multi_json-1.14.1/lib/multi_json/convertible_hash_keys.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/multi_json-1.14.1/lib/multi_json/options.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/multi_json-1.14.1/lib/multi_json/options_cache.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/multi_json-1.14.1/lib/multi_json/parse_error.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/multi_json-1.14.1/lib/multi_json/vendor/okjson.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/multi_json-1.14.1/lib/multi_json/version.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/specifications/multi_json-1.14.1.gemspec</Path>
         </Files>
     </Package>
     <History>
-        <Update release="3">
-            <Date>2019-10-07</Date>
-            <Version>1.13.1</Version>
+        <Update release="4">
+            <Date>2020-06-26</Date>
+            <Version>1.14.1</Version>
             <Comment>Packaging update</Comment>
-            <Name>F. von Gellhorn</Name>
-            <Email>flinux@vongellhorn.ch</Email>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@streambits.io</Email>
         </Update>
     </History>
 </PISI>
